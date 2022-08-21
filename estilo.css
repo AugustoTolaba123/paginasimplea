@@ -1,0 +1,102 @@
+
+body{
+  background-color: darkgray;
+
+}
+
+
+header{
+   
+  font-size: 5vmax;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+
+}
+
+ul li{
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+display:inline
+
+}
+
+h6{
+  font-size: 40px;
+}
+
+.principal{
+background: blue;
+width: 1008px;
+height: 450px;
+float:left;
+margin-top: 10px;
+
+
+}
+
+.de {
+  width: 110px;
+  height: 450px;
+  background: #ff8000;
+  margin-top: 10px;
+  float: right;
+}
+
+
+footer{
+  margin-top: 10px;  
+  font-size: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  text-align: center;
+  clear: both;
+}
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 50%;
+
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+ .form-register{
+    width: 400px;
+	background-color:aquamarine;
+    padding: 30px;
+	margin:auto;
+	margin-top: 100px;
+ }
+
+ 
